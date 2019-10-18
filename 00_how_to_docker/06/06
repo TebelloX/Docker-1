@@ -1,1 +1,1 @@
-docker run --name overlord -P -d nginx
+docker pull nginx && docker run --name overlord -P -d 5000:80 nginx
