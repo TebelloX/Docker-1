@@ -1,2 +1,2 @@
 docker pull frolvlad/alpine-python2
-docker run --rm frolvlad/alpine-python2 --name Abathur -c 'print u"Hello World"'
+docker run --rm frolvlad/alpine-python2 --name Abathur -p 3000:3000 -c 'print u"Hello World"'
