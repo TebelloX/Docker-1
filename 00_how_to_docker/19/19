@@ -1,0 +1,2 @@
+docker pull frolvlad/alpine-python2
+docker run --rm frolvlad/alpine-python2 Abathur -c 'print u"Hello World"'
