@@ -1,0 +1,2 @@
+docker run -d --name spawning-pool --restart on-failure -e MYSQL_ROOT_PASSWORD=Kerrigan mysql:tag
+docker exec -it spawning-pool bash
