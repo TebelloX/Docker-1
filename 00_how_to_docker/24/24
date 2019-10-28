@@ -1,0 +1,1 @@
+docker run -d --network overmind --name orbital-command -e RABBITMQ_DEFAULT_USER=sophonia -e RABBITMQ_DEFAULT_PASS=1994 rabbitmq:3
