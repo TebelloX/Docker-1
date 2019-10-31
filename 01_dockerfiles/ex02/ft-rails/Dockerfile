@@ -1,1 +1,2 @@
-FROM ruby
+FROM ruby:2.6.2-stretch
+COPY . /application
